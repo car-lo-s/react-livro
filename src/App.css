@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #0071c5;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+header img{
+  width: 50px;
+  margin-left: 20px;
+  padding: 10px 0px 10px 0px;
+}
+.form {
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 5px;
+}
+.form div input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 5px;
+  width: 250px;
+}
+.form div button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.form div button img {
+  height: 25px;
+  padding: 5px;
+}
+.resultado {
+  border: 1px solid black;
+  min-height: 200px;
+  width: 90%;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+.resultado-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.resultado-lista a {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.resultado p{
+  margin-top: 5px;
+}
+.paginacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.paginacao p {
+  margin: 10px;
+  cursor: pointer;
+}
+footer {
+  background-color: #0071c5;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 100%;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+}
